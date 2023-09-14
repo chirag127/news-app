@@ -45,18 +45,6 @@ function printNews(news){
 
     newsId.appendChild(colDiv);
 
-// Create "Read Later" button
-const readLaterButton = document.createElement('button');
-readLaterButton.className = 'btn btn-secondary';
-readLaterButton.innerText = 'Read Later';
-cardBody.appendChild(readLaterButton);
-
-// Create a badge for the "Read Later" count
-const readLaterBadge = document.createElement('span');
-readLaterBadge.className = 'badge bg-primary';
-readLaterBadge.innerText = '0'; // Initialize with 0, and you can update this count dynamically
-readLaterButton.appendChild(readLaterBadge);
-
 
 }
 
